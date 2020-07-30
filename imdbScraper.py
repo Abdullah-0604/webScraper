@@ -90,7 +90,7 @@ print(df.head(3))
 df_max_min=df.describe().loc[['min', 'max'], ['imdb', 'metascore']]
 print(df_max_min)
 
-df.to_csv('movie_ratings.csv')
+df.to_csv('imdbScraper.csv')
 
 
 
